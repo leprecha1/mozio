@@ -1,7 +1,7 @@
-#mozioChallenge - Providers and Service Areas
+# mozioChallenge - Providers and Service Areas
 Rest API - for create, update, delete and list objects
 
-##Features
+## Features
 Create, Update, Delete and List Providers and Service Areas
 
 ### Other
