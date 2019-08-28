@@ -27,10 +27,10 @@ $source tf-venv/bin/activate
 ## Endpoints
 
 /providers/    (we can use filter for name, email, currency, phone and language)
-/provider/<ID>
+/provider/<<ID>>
 /service_areas/
-/service_areas/?lat=<LAT>&lng=<LNG> (Using lat and lng filters to match all the service areas containing those points on its polygons)
-/service_area/<ID>
+/service_areas/?lat=<<LAT>>&lng=<<LNG>> (Using lat and lng filters to match all the service areas containing those points on its polygons)
+/service_area/<<ID>>
 
 ### /providers/
 
@@ -57,7 +57,7 @@ SAMPLE RETURN:
 ]
 ```
 
-### /provider/<ID>
+### /provider/<<ID>>
 
 SAMPLE QUERY:
 ```
@@ -87,7 +87,7 @@ SAMPLE RETURN:
 
 ### /service_areas/
 or
-### /service_areas/?lat=<LAT>&lng=<LNG>
+### /service_areas/?lat=<<LAT>>&lng=<<LNG>>
 
 Service Area List
 Class ServiceAreaList - views - Django DRF - 
@@ -145,7 +145,7 @@ SAMPLE RETURN:
 ]
 ```
 
-### /service_area/<ID>
+### /service_area/<<ID>>
 
 SAMPLE QUERY:
 ```
