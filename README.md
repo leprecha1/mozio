@@ -26,11 +26,11 @@ $source tf-venv/bin/activate
 
 ## Endpoints
 
-/providers/    (we can use filter for name, email, currency, phone and language)
-/provider/<<ID>>
-/service_areas/
-/service_areas/?lat=<<LAT>>&lng=<<LNG>> (Using lat and lng filters to match all the service areas containing those points on its polygons)
-/service_area/<<ID>>
+* /providers/    (we can use filter for name, email, currency, phone and language)
+* /provider/<<ID>>
+* /service_areas/
+* /service_areas/?lat=<<LAT>>&lng=<<LNG>> (Using lat and lng filters to match all the service areas containing those points on its polygons)
+* /service_area/<<ID>>
 
 ### /providers/
 
