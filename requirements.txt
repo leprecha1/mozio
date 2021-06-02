@@ -7,4 +7,4 @@ mysql==0.0.2
 mysqlclient==1.4.2.post1
 requests==2.22.0
 Shapely==1.6.4.post2
-urllib3==1.25.3
+urllib3==1.26.5
